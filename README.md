@@ -25,6 +25,18 @@ Example Playbook
      - { role: osm_nodejs }
 ```
 
+How to run the Playbook
+-----------------------
+
+- For CentOS
+
+ansible-playbook -i hosts(your host file) site.yml 
+
+- For Ubuntu
+
+ansible-playbook -i hosts(your host file) site.yml 
+
+
 License
 -------
 
